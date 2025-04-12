@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{032de4f2-811a-4003-9fea-458b03b842d2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TerrainGenerator.cpp">
@@ -21,19 +24,22 @@
     <ClCompile Include="glad.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SimpleNoise.h">
-      <Filter>Header Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Terrain.h">
-      <Filter>Header Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Chunk.cpp">
+    <ClCompile Include="camera.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Terrain.cpp">
+    <ClCompile Include="core.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ChunkManager.cpp">
+    <ClCompile Include="shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="terrain_chunk.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="terrain_chunk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="noise_generator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -41,14 +47,22 @@
     <ClInclude Include="Camera.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="stb_image_write.h">
+    <ClInclude Include="core.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Chunk.h">
+    <ClInclude Include="shader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ChunkManager.h">
+    <ClInclude Include="noise_generator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="terrain_fragment.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\terrain_vertex.glsl">
+      <Filter>shaders</Filter>
+    </None>
   </ItemGroup>
 </Project>
