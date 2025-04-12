@@ -1,5 +1,7 @@
 # Simple Terrain Generator Using OpenGL
 
+https://github.com/user-attachments/assets/7e898e01-d2d7-4ba6-9772-b2aa174e7d50
+
 ## 📝 Overview
 This is my OpenGL learning project - an procedural terrain generator that creates realistic 3D landscapes using noise algorithms. While it has limited features, it's been a fun way to explore:
 - OpenGL rendering pipeline
